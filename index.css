@@ -1,0 +1,43 @@
+.toDo{
+ margin: 30px;
+ display: flex;
+ width: 400px;
+ height: auto;
+ background-color: whitesmoke;
+ justify-content: center;
+ flex-wrap: wrap;
+ align-items: flex-start;
+
+
+}
+.item{
+
+    width: 300px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item:hover{
+    background-color:rgba(177, 255, 177, 0.185);
+}
+
+.entery{
+margin-top: 20px;
+}
+
+
+.shadow{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+
+
+}
+
+.small{
+    height:25px ;
+    width: 25px;
+}
